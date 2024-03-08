@@ -3,12 +3,12 @@ def pascal_triangle(n):
     pascal = []
     if n <= 0:
         pascal = []
-    if n == 1:
+    elif n == 1:
         pascal.append([1])
-    if n == 2:
+    elif n == 2:
         pascal.append([1])
         pascal.append([1, 1])
-    if n > 2:
+    elif n > 2:
         pascal = [[1], [1, 1]]
         for i in range(2, n, 1):
             new_row = [1]
