@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""Function to retrurn the pascal triangle"""
+
+
 def pascal_triangle(n):
     """Pascal triangle implementation"""
     pascal = []
