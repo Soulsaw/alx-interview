@@ -5,10 +5,7 @@ def pascal_triangle(n):
         pascal = []
     elif n == 1:
         pascal.append([1])
-    elif n == 2:
-        pascal.append([1])
-        pascal.append([1, 1])
-    elif n > 2:
+    elif n >= 2:
         pascal = [[1], [1, 1]]
         for i in range(2, n, 1):
             new_row = [1]
