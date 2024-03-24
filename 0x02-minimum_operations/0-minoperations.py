@@ -2,7 +2,7 @@
 """Doc module"""
 
 
-def minOperations(n: int) -> int:
+def minOperations(n):
     """This function compute the minimum operation"""
     if n <= 0:
         return 0
