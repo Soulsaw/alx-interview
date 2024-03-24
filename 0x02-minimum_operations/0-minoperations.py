@@ -4,7 +4,7 @@
 
 def minOperations(n: int) -> int:
     """This function compute the minimum operation"""
-    if n == 1:
+    if n == 1 | n < 0:
         return 0
     dp = [0] * (n + 1)
     dp[1] = 1  # The default H character
