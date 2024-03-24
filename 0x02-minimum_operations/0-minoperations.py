@@ -4,7 +4,7 @@
 
 def minOperations(n):
     """This function compute the minimum operation"""
-    if n <= 0 | n == float('inf'):
+    if n <= 0:
         return 0
 
     dp = [float('inf')] * (n + 1)
