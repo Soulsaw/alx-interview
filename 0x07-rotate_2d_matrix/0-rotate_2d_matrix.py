@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Doc of the rotate 2d matrix module"""
 
 
