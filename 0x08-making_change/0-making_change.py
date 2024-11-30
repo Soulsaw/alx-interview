@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Doc of the module"""
+"""This module handle the making change challenge"""
 
 
 def makeChange(coins, total):
-    """# If total is 0 or less, return 0"""
+    """If total is 0 or less, return 0 otherwise handle"""
     if total <= 0:
         return 0
 
